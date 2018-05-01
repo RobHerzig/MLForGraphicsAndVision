@@ -6,6 +6,7 @@ import tensorflow as tf
 import numpy as np
 import datetime
 import matplotlib.pyplot as plt
+from sklearn.neighbors import KDTree
 
 num_of_random_points = 2**10
 num_dimensions = 2
@@ -62,17 +63,39 @@ def benchmark_dimensions():
         print(str(i) + " DIMENSIONS TOOK: " + str(time_diff))
 
     print(times)
-    plt.plot(dim_vals, times)
+    return times
+    # plt.plot(dim_vals, times)
+    #
+    # axes = plt.gca()
+    # # axes.set_xlim([0,xmax])
+    # axes.set_ylim([0, 10000])
+    #
+    # plt.xlabel('Dimensions')
+    # plt.ylabel('Time in ms for exh. search')
+    # plt.title('Time for loop with diff. dims')
+    # plt.grid(True)
+    # plt.savefig("Ex01_1.png")
+    # plt.show()
+    #
 
-    axes = plt.gca()
-    # axes.set_xlim([0,xmax])
-    axes.set_ylim([0, 10000])
+# def kdtree_search(tree, queries):
+#     # TODO
+#     pass
 
-    plt.xlabel('Dimensions')
-    plt.ylabel('Time in ms for exh. search')
-    plt.title('Time for loop with diff. dims')
-    plt.grid(True)
-    plt.savefig("Ex01_1.png")
-    plt.show()
 
-benchmark_dimensions()
+if True:
+    # timings for different D
+    times = benchmark_dimensions()
+
+    # # kd-tree search
+    # for D in range(1, 500, 10):
+    #     # TODO
+    #     pass
+
+    # plot to file
+    plt.plot(range(1, 500, 10), times)
+    plt.title('Query Times')
+    plt.xlabel('dimension (D)')
+    plt.ylabel('time (ms)')
+    plt.savefig('1_1_c.png', bbox_inches='tight')
+
