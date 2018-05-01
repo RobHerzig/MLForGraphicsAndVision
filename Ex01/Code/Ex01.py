@@ -44,43 +44,35 @@ def test_dimensions(low, hi):
         nearest_neighbour_of_first_point = find_nearest_neighbour_exhaustively(rands, 0)
         print("NEAREST NEIGHBOUR OF " + str(rands[0]) + " IS " + str(nearest_neighbour_of_first_point))
 
-dim_vals = get_dim_vals()
-print(dim_vals)
-times = []
+def benchmark_dimensions():
+    dim_vals = get_dim_vals()
+    print(dim_vals)
+    times = []
 
-# dim_vals = [1,2,3,4,5]
-for i in dim_vals:
-    start_time = datetime.datetime.utcnow()
-    random_points = np.random.rand(num_of_random_points, i)
-    # print(random_points[0])
-    for point in random_points:
-        find_nearest_neighbour_exhaustively(random_points, point)
-    end_time = datetime.datetime.utcnow()
-    time_diff = end_time - start_time
-    times.append(time_diff.total_seconds() * 1000)
-    print(str(i) + " DIMENSIONS TOOK: " + str(time_diff))
+    # dim_vals = [1,2,3,4,5]
+    for i in dim_vals:
+        start_time = datetime.datetime.utcnow()
+        random_points = np.random.rand(num_of_random_points, i)
+        # print(random_points[0])
+        for point in random_points:
+            find_nearest_neighbour_exhaustively(random_points, point)
+        end_time = datetime.datetime.utcnow()
+        time_diff = end_time - start_time
+        times.append(time_diff.total_seconds() * 1000)
+        print(str(i) + " DIMENSIONS TOOK: " + str(time_diff))
 
-print(times)
-plt.plot(dim_vals, times)
+    print(times)
+    plt.plot(dim_vals, times)
 
-axes = plt.gca()
-# axes.set_xlim([0,xmax])
-axes.set_ylim([0, 10000])
+    axes = plt.gca()
+    # axes.set_xlim([0,xmax])
+    axes.set_ylim([0, 10000])
 
-plt.xlabel('Dimensions')
-plt.ylabel('Time in ms for exh. search')
-plt.title('Time for loop with diff. dims')
-plt.grid(True)
-plt.savefig("Ex01_1.png")
-plt.show()
+    plt.xlabel('Dimensions')
+    plt.ylabel('Time in ms for exh. search')
+    plt.title('Time for loop with diff. dims')
+    plt.grid(True)
+    plt.savefig("Ex01_1.png")
+    plt.show()
 
-#
-# print("TEST AND VISUALIZE 2D")
-# plt.plot(random_points[:,0], random_points[:,1], 'bo')
-# plt.show()
-# nearest_neighbour_of_first = find_nearest_neighbour_exhaustively(random_points, 0)
-# neighbours = np.array([random_points[0], nearest_neighbour_of_first])
-# plt.plot(neighbours[:,0], neighbours[:,1], 'bo')
-# plt.show()
-
-# test_dimensions(1, 10)
+benchmark_dimensions()
