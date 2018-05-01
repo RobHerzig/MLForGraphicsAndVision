@@ -1,7 +1,37 @@
-1) The function seems to have a linear complexity => O(n), where n appears to depend on the number of points and to be almost independent from the number of dimensions. This assumption is based on the observation that the difference between the method in 1-dimensional and in 491-dimensional space is very small.
+ROBERT HERZIG 3605172
+LARS-CHRISTIAN ACHAUER 3594908
 
-2) 
-Number of Frames = 120*30 = 3600
+RELEVANT CODE IS IN
+/Code/Ex01_01.py and /Code/Ex01_02.py !!
+
+1) 
+a)
+The function seems to have a linear complexity => O(n), where n appears to depend on the number of points mostly, and is also linearly dependent on the number of dimensions, however, the dimension's influence is low. This assumption is based on the observation that the difference between the method in 1-dimensional and in 491-dimensional space is quite small, yet noticeable.
+
+b) 
+Number of Frames per Video = 120*30 = 3600 
 Number of Points per Frame = 20000, dims = 128 = 2^7
 
-As we learnt that the number of dimension has minimal effect on the runtime, we can leave that out, leaving us with..
+If we say that we need around 6 seconds (on our hardware) in order to do exhaustive-search on 2^10=1024 pixels per image, let's round to 1000, and the frames in our videos consist of 20000 element vectors, we can assume that we need around 20 times longer, meaning around 120 seconds = 2 minutes, in order to compare two frames. 
+As we want to do this 3600 times, we will take around 2 minutes * 3600 = 120 hours.
+
+c)
+KD-Trees seem to work far more efficiently, at least that's what we notice for low k-values. However, after running some tests, we noticed that both lines (KD-tree and exhaustive search) crossed each other for k=3 at around 500 dimensions, and for k>=2 the growth of the KD-tree's graph seems to be faster than for the exhaustive search one. Therefore, for lower k, we can easily prioritize KD-trees.
+
+2
+a)
+TOP K ACCURACY k=1 : 0.7416666666666667
+TOP K ACCURACY k=2 : 0.8355
+TOP K ACCURACY k=3 : 0.8776666666666667
+TOP K ACCURACY k=4 : 0.9
+TOP K ACCURACY k=5 : 0.917
+TOP K ACCURACY k=6 : 0.928
+TOP K ACCURACY k=7 : 0.9383333333333334
+TOP K ACCURACY k=8 : 0.9461666666666667
+TOP K ACCURACY k=9 : 0.952
+TOP K ACCURACY k=10 : 0.957
+b)
+PRECISION FOR REFERENCE LABEL 2: 0.56875
+RECALL FOR REFERENCE LABEL 2: 0.6016528925619835
+PRECISION FOR REFERENCE LABEL 6: 0.4327666151468315
+RECALL FOR REFERENCE LABEL 6: 0.46204620462046203
