@@ -1,0 +1,7 @@
+1) The function seems to have a linear complexity => O(n), where n appears to depend on the number of points and to be almost independent from the number of dimensions. This assumption is based on the observation that the difference between the method in 1-dimensional and in 491-dimensional space is very small.
+
+2) 
+Number of Frames = 120*30 = 3600
+Number of Points per Frame = 20000, dims = 128 = 2^7
+
+As we learnt that the number of dimension has minimal effect on the runtime, we can leave that out, leaving us with..
