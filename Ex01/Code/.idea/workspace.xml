@@ -15,11 +15,9 @@
       <file leaf-file-name="Ex01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ex01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="e#66#89#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -27,9 +25,11 @@
       <file leaf-file-name="template_1_1_c.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template_1_1_c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,22 +200,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 24m 19s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 57m 16s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 29m 41s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 07m 30s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 40m 25s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 07m 49s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 42m 32s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 09m 48s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 42m 54s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 16m 07s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 14h 49m 14s.xml">
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 32m 44s.xml">
+      <configuration name="Unittests in Ex01.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 37m 01s.xml">
+      <configuration name="Unittests in Ex01.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 42m 05s.xml">
+      <configuration name="Unittests in Ex01.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 15h 58m 37s.xml">
+      <configuration name="Unittests in Ex01.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Ex01_py - 2018.05.01 at 16h 05m 51s.xml">
       <configuration name="Unittests in Ex01.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -226,6 +238,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -238,7 +251,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -247,25 +259,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/template_1_1_c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ex01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#89#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
