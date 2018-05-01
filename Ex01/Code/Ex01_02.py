@@ -1,4 +1,9 @@
-import os
+# NAME: ROBERT HERZIG
+# MATNO: 3605172
+# NAME: LARS-CHRISTIAN ACHAUER
+# MATNO: 3594908
+# COMPILED WITH PYTHON 3.6.5
+
 import gzip
 import numpy as np
 from sklearn.neighbors import KDTree
